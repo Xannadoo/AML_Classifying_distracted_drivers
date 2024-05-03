@@ -1,0 +1,7 @@
+# extensions
+*.csv
+*.zip
+# files and folders
+aml4ds_env.yml
+/src/**/img*
+**/*.ipynb_checkpoints/
