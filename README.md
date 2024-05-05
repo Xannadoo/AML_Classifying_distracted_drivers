@@ -7,11 +7,11 @@ The data can be downloaded from [Kaggle](https://www.kaggle.com/c/state-farm-dis
 - 1. Fine tune a model for binary classification, distracted or not
 - 2. Fine tune a model for multiclass classification, according to provided classes.
 
-[5 images and their predictions vs true labels](sample_results.png "Sample results from multiclass model")
+![5 images and their predictions vs true labels](sample_results.png "Sample results from multiclass model")
 
 - We then want to look at what areas the model is focussing on and create some heatmaps to demonstrate this:
 
-[Example heatmap image](example_heatmap.png "Example of a heatmap from final model layer")
+![Example heatmap image](example_heatmap.png "Example of a heatmap from final model layer")
 
 ***
 
