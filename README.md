@@ -32,14 +32,15 @@ According to Kaggle 'State Farm set up these experiments in a controlled environ
 Image classification using tranfer learning and salience consideration
 
 ## Models
-VGG16
+[
+VGG16 [link to trained model](https://drive.google.com/file/d/1_q5qGaAeMFJ5hFZyYPob4_eug0qgYyXh/view?usp=drive_link)
 ResNet18
 ResNet50
 
 ##
 
 
-### PLan:
+### Plan:
 - 1. Fine tune a model for binary classification, distracted or not
 - 2. Fine tune a model for multiclass classification, according to provided classes.
 
@@ -53,6 +54,7 @@ ResNet50
 
 ### Requirements:
 [Requirements.txt](https://github.com/Xannadoo/AML_Classifying_distracted_drivers/blob/main/requirements.txt)
+
 ### Folder structure:
 ```
 
@@ -60,6 +62,8 @@ ResNet50
     statefarm_drivers_02.ipynb
     statefarm_drivers_02_vgg.ipynb    
     driver_imgs_list.csv
+    model
+    ├───resnet50_multi_unfreeze_tune_v02.pt
     src
     ├───imgs
     │   ├───test
