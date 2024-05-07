@@ -32,10 +32,9 @@ According to Kaggle 'State Farm set up these experiments in a controlled environ
 Image classification using tranfer learning and salience consideration
 
 ## Models
-[
-VGG16 [link to trained model](https://drive.google.com/file/d/1_q5qGaAeMFJ5hFZyYPob4_eug0qgYyXh/view?usp=drive_link)
-ResNet18
-ResNet50
++ VGG16 [link to trained model](https://drive.google.com/file/d/1_q5qGaAeMFJ5hFZyYPob4_eug0qgYyXh/view?usp=drive_link)
++ ResNet18
++ ResNet50
 
 ##
 
