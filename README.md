@@ -1,7 +1,43 @@
 # AML_Classifying_distracted_drivers
 ## Mandatory assignment for Advanced Machine Learning, ITU Spring 2024
 
+***
+
+## A Project by:
++ Chrisanna K Cornish ccor@itu.dk
++ Christian M Hansen chmh@itu.dk
+
+***
+
+## Data:
 The data can be downloaded from [Kaggle](https://www.kaggle.com/c/state-farm-distracted-driver-detection)
+
+Approx 20000 still images from 26 individuals tagged with classes 0-9:
+> + c0: normal driving
+> + c1: texting - right
+> + c2: talking on the phone - right
+> + c3: texting - left
+> + c4: talking on the phone - left
+> + c5: operating the radio
+> + c6: drinking
+> + c7: reaching behind
+> + c8: hair and makeup
+> + c9: talking to passenger
+
+Classes are approxiamtely balanced.
+
+According to Kaggle 'State Farm set up these experiments in a controlled environment - a truck dragging the car around on the streets - so these "drivers" weren't really driving.'
+
+## Central Problem
+Image classification using tranfer learning and salience consideration
+
+## Models
+VGG16
+ResNet18
+ResNet50
+
+##
+
 
 ### PLan:
 - 1. Fine tune a model for binary classification, distracted or not
@@ -19,10 +55,10 @@ The data can be downloaded from [Kaggle](https://www.kaggle.com/c/state-farm-dis
 [Requirements.txt](https://github.com/Xannadoo/AML_Classifying_distracted_drivers/blob/main/requirements.txt)
 ### Folder structure:
 ```
-    model_v1.pt
-    model_v2.pt
+
     statefarm_drivers_01.ipynb
     statefarm_drivers_02.ipynb
+    statefarm_drivers_02_vgg.ipynb    
     driver_imgs_list.csv
     src
     ├───imgs
